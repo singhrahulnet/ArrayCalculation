@@ -4,7 +4,7 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/singhrahulnet/ArrayCalculation.svg?style=plastic) |[![.Net Framework](https://img.shields.io/badge/DotNet-Framework_2.1-blue.svg?style=plastic)](https://www.microsoft.com/net/download/dotnet-core/2.1) | ![GitHub language count](https://img.shields.io/github/languages/count/singhrahulnet/ArrayCalculation.svg?style=plastic)| ![GitHub top language](https://img.shields.io/github/languages/top/singhrahulnet/ArrayCalculation.svg) 
 | ---        | ---      | ---       | --- |
 ## Array Calculation
-A .Net Core 2.1 Web API for Array Calculation (purely with array manipulation)
+A .Net Core 2.1 API for Array Calculation (purely with array manipulation)
 
 <img width="1469" alt="Array Calculation API" src="https://github.com/singhrahulnet/ArrayCalculation/blob/master/swagger.PNG">
 
