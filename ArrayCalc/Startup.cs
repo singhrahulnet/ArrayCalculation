@@ -51,7 +51,7 @@ namespace ArrayCalc
             app.UseMvc();
         }
 
-        private static void AddSwagger(IServiceCollection services)
+        private void AddSwagger(IServiceCollection services)
         {
             services.AddSwaggerGen(c =>
             {

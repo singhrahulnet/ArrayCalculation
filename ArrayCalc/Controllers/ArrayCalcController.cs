@@ -13,8 +13,11 @@ namespace ArrayCalc.Controllers
 
         public ArrayCalcController(IArrayCalcService service)
         {
+
             _calcService = service;
         }
+
+
         /// <summary>
         /// Reverses product ids received in query string
         /// </summary>
@@ -26,7 +29,9 @@ namespace ArrayCalc.Controllers
         [ProducesResponseType(400)]
         public IActionResult ReverseProducts(int[] productIds)
         {
-            if (productIds == null || productIds.Length == 0) return BadRequest("Specify product ids in the query string to reverse");
+            if (productIds == null || productIds.Length == 0) return BadRequest("Specify product ids to reverse in the query string");
+            if (productIds.Length == 1) return Ok(productIds);
+
             try
             {
                 _calcService.Reverse(productIds);
@@ -52,8 +57,8 @@ namespace ArrayCalc.Controllers
         [ProducesResponseType(404)]
         public IActionResult DeletePart(int position, int[] productIds)
         {
-            if (productIds.Length == 0) return BadRequest("Specify product ids in the query string to reverse");
-            if (position < 1 || position > productIds.Length) return BadRequest("The position index is out of range");
+            if (productIds.Length == 0) return BadRequest("Specify product ids in the query string");
+            if (position < 1 || position > productIds.Length) return NotFound("The position index is out of range");
 
             try
             {
