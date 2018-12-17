@@ -12,7 +12,7 @@ A .Net Core 2.1 API for Array Calculation (purely with array manipulation)
 Implement RESTful endpoints in .NET Core API 
 > To reverse an input of array of integers 
 
-> To omit an element from an input of array of integers from a specified array
+> To omit an element from an input of array of integers
 
 > Implement with pure array manipulation
 
@@ -28,7 +28,6 @@ Implement RESTful endpoints in .NET Core API
 
 > Download/install [![.Net Framework](https://img.shields.io/badge/DotNet-Framework_2.1-blue.svg?style=plastic)](https://www.microsoft.com/net/download/dotnet-core/2.1) to run project   
  
-
 >   Kindly clone /download the repository.
 
 >   Open the solution file 'ArrayCalc.sln' from VisualStudio 2017
