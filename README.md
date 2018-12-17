@@ -6,7 +6,7 @@
 ## Array Calculation
 A .Net Core 2.1 Web API for Array Calculation (purely with array manipulation)
 
-<img width="1469" alt="Array Calculation API" src="https://github.com/singhrahulnet/ArrayCalculation/blob/master/swagger.png">
+<img width="1469" alt="Array Calculation API" src="https://github.com/singhrahulnet/ArrayCalculation/blob/master/swagger.PNG">
 
 ## Problem Statement
 Implement RESTful endpoints in .NET Core API 
